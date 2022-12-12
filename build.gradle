@@ -1,0 +1,10 @@
+plugins {
+    id 'java-gradle-plugin'
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
+
